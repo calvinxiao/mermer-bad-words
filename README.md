@@ -45,3 +45,38 @@ Consider a bad word list [https://www.cs.cmu.edu/~biglou/resources/bad-words.txt
 ```
 python3 count.py < badwords.txt
 ```
+
+output
+
+```
+Probability of a bad word in a string is: 0.005944913738782739
+```
+
+So the calculated probability of a bad/rude word in a id string is `0.59%`
+
+Running a Go program with the word list shows that 
+
+```
+Found rude words: 4520, total: 100000
+```
+
+It's about 4.5%, reality is a b*tch.
+
+With two of my favourite rude words here is the output:
+
+```
+uuid: 2d700ea9a5d64826b69bd109b0536627, hash: 1ZG8T5MBLCUNT, contains rude word: C*NT
+uuid: 249092de939c4d2a9c6a63eaf9d03ff2, hash: 19WECUNTKY7B, contains rude word: C*NT
+uuid: 651e46f131864b9e8470bcaddcd9342f, hash: MAV0USCUNTWP, contains rude word: C*NT
+uuid: 1a818c8c7e8842c087b856b095735678, hash: 2MVY1ULCUNTI2, contains rude word: C*NT
+uuid: bae9854c08d94030972877f1c3e4a05e, hash: QHCUNT2IZ5SO, contains rude word: C*NT
+uuid: 83a61dc1a0f9475387a957d55f50699e, hash: Q8R10TFUCKHA, contains rude word: F*CK
+uuid: d90ef1e5469243fe91a38888bf603221, hash: 35I93NFUCKBIJ, contains rude word: F*CK
+uuid: 3042deb780674d8d8400728713ee99af, hash: 3FPRLSFUCKKTD, contains rude word: F*CK
+uuid: 65d679004c71494ca3fff1db709bff90, hash: 7P3FUCKR0QR8, contains rude word: F*CK
+uuid: b3085cf1e8794f4ea8bc57a6a050becc, hash: 1FUCK7ZIJW7WZ, contains rude word: F*CK
+uuid: 0ab6ae1e1f2641d380975b2d4d06fddf, hash: 2M3FUCK3BYABZ, contains rude word: F*CK
+uuid: 8b38d62fc8bc43d690db84fbe105b620, hash: 30TAA120FUCKI, contains rude word: F*CK
+uuid: d42be752ef3749c3ab29398d64622c75, hash: 2VJLBHFUCKKTJ, contains rude word: F*CK
+uuid: 5d49d81c4ffd4ffd809c789d1f3f414c, hash: L5R7FUCK2XFO, contains rude word: F*CK
+```
